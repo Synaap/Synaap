@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" width="100%" alt="Synaap — Build. Break. Rebuild. A radar scan reveals a figure overlooking a city at sunset.">
+<img src="./assets/banner.svg" width="100%" alt="Synaap">
 
 I build Windows tools and write code for competition robots. I like taking things apart to see how they work, especially when I can put them back together a little differently.
 

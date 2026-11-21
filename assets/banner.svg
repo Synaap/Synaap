@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
   width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="heading summary">
-  <title id="heading">Synaap — Build. Break. Rebuild.</title>
+  <title id="heading">Synaap</title>
   <desc id="summary">A pulse opens a portrait scanner. Its pieces scatter and resolve into the outlines of a figure, birds and a waterfront skyline. Their pink and violet sunset develops behind Synaap’s wordmark.</desc>
   <metadata>Sunset artwork and avatar supplied with Synaap/Codex-Animated: https://github.com/Synaap/Codex-Animated . Animation inspiration credited by the launcher: https://github.com/panding999/codex-startup-animation/tree/c743c2b5eceaa7be9dc511d23a1a77f7c4ce6248 .</metadata>
   <style>
     .pulse,.identity,.chip,.splinter,.trace,.sweep,.grid,.meter { opacity:0 }
-    .scene,.word,.motto { opacity:1 }
+    .scene,.word { opacity:1 }
     @media (prefers-reduced-motion: no-preference) {
-      .pulse,.ripple,.identity,.dial,.chip,.trace,.scene,.word,.motto,.sweep,.grid,.meter,.readout,.wipe,.splinter {
+      .pulse,.ripple,.identity,.dial,.chip,.trace,.scene,.word,.sweep,.grid,.meter,.readout,.wipe,.splinter {
         animation-duration:10.4s;animation-timing-function:ease-in-out;animation-fill-mode:both;animation-iteration-count:1;
       }
       .pulse {animation-name:pulse}
@@ -32,8 +32,6 @@
       @keyframes sweep {0%,69%{opacity:0;transform:translateX(-420px)} 74%{opacity:.17} 82%,100%{opacity:0;transform:translateX(1190px)}}
       .word {animation-name:word}
       @keyframes word {0%,76%{opacity:0;transform:translateY(9px)} 90%,100%{opacity:1;transform:none}}
-      .motto {animation-name:motto}
-      @keyframes motto {0%,80%{opacity:0;transform:translateY(5px)} 93%,100%{opacity:1;transform:none}}
       .meter {animation-name:meter}
       @keyframes meter {0%{opacity:.65} 7%,73%{opacity:.85} 82%,100%{opacity:0}}
       .readout {animation-name:advance;transform-origin:42px 40px}
@@ -215,9 +213,5 @@
       <path class="readout" d="M42 40h112" stroke="#e7cadb" stroke-width="2"/>
     </g>
     <g class="word" fill="#fff8f1"><use xlink:href="#signature" transform="translate(51 313)"/></g>
-    <g class="motto">
-      <text x="53" y="374" fill="#ffe2ed" font-family="Consolas, 'Liberation Mono', monospace"
-            font-size="29" letter-spacing=".3">Build. Break. Rebuild.</text>
-    </g>
   </g>
 </svg>
