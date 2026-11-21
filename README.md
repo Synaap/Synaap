@@ -2,7 +2,7 @@
 
 I build Windows tools and write code for competition robots. I like taking things apart to see how they work, especially when I can put them back together a little differently.
 
-## Selected projects
+## Highlights
 
 ### [Codex Animated](https://github.com/Synaap/Codex-Animated)
 
