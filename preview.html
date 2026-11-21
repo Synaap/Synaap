@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>GitHub profile preview</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #ffffff;
+      --foreground: #1f2328;
+      --border: #d1d9e0;
+      --link: #0969da;
+      --code: #818b981f;
+      --block: #f6f8fa;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #0d1117;
+        --foreground: #f0f6fc;
+        --border: #3d444d;
+        --link: #4493f8;
+        --code: #656c7633;
+        --block: #151b23;
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--foreground);
+      font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    main {
+      max-width: 910px;
+      margin: 32px auto;
+      padding: 32px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow-wrap: break-word;
+    }
+    main > :first-child { margin-top: 0; }
+    main > :last-child { margin-bottom: 0; }
+    h1, h2, h3 { margin: 24px 0 16px; font-weight: 600; line-height: 1.25; }
+    h1, h2 { padding-bottom: .3em; border-bottom: 1px solid var(--border); }
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.5em; }
+    h3 { font-size: 1.25em; }
+    p, ul, ol, pre, table { margin: 0 0 16px; }
+    ul, ol { padding-left: 2em; }
+    li + li { margin-top: .25em; }
+    a { color: var(--link); text-underline-offset: .13em; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; border-radius: 2px; }
+    img { max-width: 100%; height: auto; vertical-align: middle; }
+    pre, code { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    code { background: var(--code); padding: .2em .4em; border-radius: 4px; font-size: 85%; }
+    pre { padding: 16px; overflow-x: auto; background: var(--block); border-radius: 6px; }
+    pre code { padding: 0; background: transparent; }
+    table { border-collapse: collapse; display: block; max-width: 100%; overflow-x: auto; }
+    th, td { padding: 6px 13px; border: 1px solid var(--border); }
+    tr:nth-child(even) { background: var(--block); }
+    @media (max-width: 720px) {
+      main { margin: 0 auto; border: 0; padding: 24px 16px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+<img src="./assets/banner.svg" width="100%" alt="Synaap — Build. Break. Rebuild. A radar scan reveals a figure overlooking a city at sunset.">
+<p>I build Windows tools and write code for competition robots. I like taking things apart to see how they work, especially when I can put them back together a little differently.</p>
+<h2>Selected projects</h2>
+<h3><a href="https://github.com/Synaap/Codex-Animated">Codex Animated</a></h3>
+<p>The project behind this banner. Pick a wallpaper and watch its outlines appear as Codex, Devin, or Antigravity opens on Windows. Theme Studio saves your wallpaper, avatar, and opacity settings together so you can switch them in one step.</p>
+<h3><a href="https://github.com/Synaap/KQ2026">KQ2026</a></h3>
+<p>Java code for a FIRST Tech Challenge robot. The <a href="https://github.com/Synaap/KQ2026/tree/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode">team code</a> includes the paths the robot follows on its own, the controls the drivers use during a match, and a tuner for the flywheel.</p>
+</main>
+</body>
+</html>
