@@ -1,6 +1,6 @@
 <img src="./assets/banner.svg" width="100%" alt="Synaap">
 
-Full Stack Meat Proxy
+Full Stack Meat Proxy  
 Windows Kernel
 
 ## Highlights
